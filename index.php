@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en" class="HeightFullElement" dir="ltr">
-	<head>
+	<head><script>
+  const domain = window.location.hostname;
+  const s = document.createElement("script");
+  s.defer = true;
+  s.setAttribute("data-domain", domain);
+  s.src = "https://plausible.io/js/script.js";
+  document.head.appendChild(s);
+</script>
 		<title>Woven Home Design</title>
 		<link href="styles.css" rel="stylesheet" />
 		<link rel="icon" type="image/x-icon" href="favicon.ico" />
